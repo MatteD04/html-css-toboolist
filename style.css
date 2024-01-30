@@ -1,3 +1,4 @@
+/*impostazioni generali*/
 *{
    margin: 0;
    padding: 0;
@@ -9,6 +10,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/*header*/
 header{
     background-color: #ffffff;
     padding: 10px 20px;
@@ -22,19 +24,22 @@ header{
     vertical-align: middle;
 }
 
+/*contenitori*/
 .container{
     padding: 10px 0px 8px 50px;
     max-width: 800px;
     margin: 0 auto;
+    margin-top: 50px;
     background-color: #ffffff;
     border-radius: 10px;
 }
 
 .list{
     margin-top: 3px;
-    padding: 0px 0px 0px 65px;
+    padding: 35px 0px 0px 65px;
 }
 
+/*bottoni*/
 .button{
     display: inline-block;
     border-radius: 5px;
@@ -50,5 +55,7 @@ header{
 .bianco{
     background-color: #ffffff;
     color: #808080;
-    border-color: #808080;
+    border-color:#808080;
 }
+
+/*lista*/
