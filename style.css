@@ -36,7 +36,7 @@ header{
 
 .list{
     margin-top: 3px;
-    padding: 35px 0px 0px 65px;
+    padding: 35px 0px 35px 65px;
 }
 
 /*bottoni*/
@@ -59,3 +59,22 @@ header{
 }
 
 /*lista*/
+.circle{
+    display: inline-block;
+    border:1px solid black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 15px;
+}
+
+.check{
+    color: green;
+    border-color: green;
+}
+
+.cross{
+    color: red;
+    border-color: red;
+}
