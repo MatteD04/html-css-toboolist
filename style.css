@@ -21,3 +21,34 @@ header{
 .logo{
     vertical-align: middle;
 }
+
+.container{
+    padding: 10px 0px 8px 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.list{
+    margin-top: 3px;
+    padding: 0px 0px 0px 65px;
+}
+
+.button{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.azzurro{
+    background-color:deepskyblue;
+    color: #ffffff;
+    border-color:deepskyblue;
+}
+
+.bianco{
+    background-color: #ffffff;
+    color: #808080;
+    border-color: #808080;
+}
