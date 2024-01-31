@@ -7,7 +7,7 @@
     <!--google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
  </head>
  <body>
@@ -20,24 +20,62 @@
            <button class="button azzurro">Add Task</button>
            <button class="button bianco">Add Section</button>
         </div>
+        <!--list-->
         <div class="container list">
-            <ul>
-                <li><strong>New Task</strong> <br>
-                   <div class="circle check">&check;</div> Quarterly Newsletter
-                </li>
-                <li><strong>Today</strong> <br>
-                   <div class="circle check">&check;</div> blog post <br>
-                   <div class="circle check">&check;</div> app launch <br>
-                   <div class="circle cross">&cross;</div> Interview John H. <br>
-                   <div class="circle check">&check;</div> Summit update to mobile storefronts
-                </li>
-                <li><strong>Upcoming</strong> <br>
-                   <div class="circle cross">&cross;</div> Schedule meeting with Alex <br>
-                   <div class="circle check">&check;</div> Homepage refresh <br>
-                   <div class="circle cross">&cross;</div> Onboard new Sales team members <br>
-                   <div class="circle cross">&cross;</div> Review editorial calendar
-                </li>
-            </ul> 
+                <h3>&blacktriangledown; New Task</h3>
+                <ul class="task-list">
+                   <li class="task">
+                     <div class="circle check">&check;</div>
+                     <span class="task-text"> Quarterly Newsletter</span>
+                     <div class="tag tag-blue">Editorial</div>
+                   </li>
+                </ul>
+
+                <ul class="task-list">
+                   <h3>&blacktriangledown;Today</h3>
+                   <li class="task">
+                     <div class="circle check">&check;</div>
+                     <span class="task-text">Recruiting blog post</span>
+                     <div class="tag tag-blue">Editorial</div>
+                   </li>
+                   <li class="task">
+                     <div class="circle check">&check;</div>
+                     <span class="task-text">Mobile app launch</span>
+                     <div class="tag tag-purple">Q1 Goals</div>
+                   </li>
+                   <li class="task">
+                     <div class="circle cross">&cross;</div>
+                     <span class="task-text">Interview John H.</span>
+                     <div class="tag tag-green">Recruiting</div>
+                   </li>
+                   <li class="task">
+                     <div class="circle check">&check;</div>
+                     <span class="task-text">Summit update to mobile storefronts</span>
+                     <div class="tag tag-orange">Mobile</div>
+                   </li>
+                </ul>
+
+                <ul class="task-list">
+                  <h3>&blacktriangledown;Upcoming</h3>
+                   <li class="task">
+                     <div class="circle cross">&cross;</div>
+                     <span class="task-text">Schedule meeting with Alex</span>
+                   </li>
+                   <li class="task">
+                     <div class="circle check">&check;</div>
+                     <span class="task-text">Homepage refresh</span>
+                     <div class="tag tag-pink">Website</div>
+                   </li>
+                   <li class="task">
+                     <div class="circle check">&check;</div>
+                     <span class="task-text">Onboard new Sales team members</span>
+                     <div class="tag tag-light-green">Sales</div>
+                   </li>
+                   <li class="task">
+                     <div class="circle check">&check;</div>
+                     <span class="task-text">Review editorial calendar</span>
+                     <div class="tag tag-blue">Editorial</div>
+                   </li>             
         </div>
     </main>
  </body>

@@ -42,8 +42,10 @@ header{
 /*bottoni*/
 .button{
     display: inline-block;
+    border: 1px solid;
     border-radius: 5px;
     padding: 7px;
+    cursor: pointer;
 }
 
 .azzurro{
@@ -53,20 +55,20 @@ header{
 }
 
 .bianco{
-    background-color: #ffffff;
-    color: #808080;
-    border-color:#808080;
+    background:transparent;
+    color: #c4cbd0;
+    border-color:#c4cbd0;
 }
 
 /*lista*/
 .circle{
     display: inline-block;
     border:1px solid black;
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
     border-radius: 100%;
     text-align: center;
-    line-height: 15px;
+    line-height: 20px;
 }
 
 .check{
@@ -77,4 +79,51 @@ header{
 .cross{
     color: red;
     border-color: red;
+}
+
+.task-list{
+    margin-top: 12px;
+    list-style: none;
+}
+
+.task{
+    margin-bottom: 10px;
+}
+
+.task-text{
+    display: inline-block;
+    margin:auto 4px;
+}
+
+.tag{
+    display: inline-block;
+    background-color: red;
+    padding: 6px 10px;
+    color:#ffffff;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.tag-blue{
+    background: deepskyblue;
+}
+
+.tag-purple{
+    background: darkorchid;
+}
+
+.tag-green{
+    background: green;
+}
+
+.tag-orange{
+    background: orange;
+}
+
+.tag-pink{
+    background: palevioletred;
+}
+
+.tag-light-green{
+    background: lightgreen;
 }
